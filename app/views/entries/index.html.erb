@@ -1,0 +1,10 @@
+<h1> Welcome to Kevin's Blog </h1>
+
+<h3><%= link_to "+ Add New Entry", new_entry_path %></h3>
+
+<% @entries.each do |x| %>
+	<br>
+	<%= x.title %><br></br>
+	<%= x.content %><br></br>
+	--<br>
+	<% end %>

@@ -1,0 +1,19 @@
+// Place all the styles related to the entries controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+#entries {
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      padding: 5px;
+    }
+  }
+}

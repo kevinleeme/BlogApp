@@ -1,0 +1,15 @@
+<h1>Add a new blog entry</h1>
+<%= form_for @entry do |f| %>
+  <fieldset>
+    <legend>Blog Entry</legend>
+    <div>
+      <%= f.label :title %>
+      <%= f.text_field :title %>
+    </div>
+    <div>
+      <%= f.label :content %>
+      <%= f.text_field :content %>
+    </div>
+  </fieldset>
+  <%= f.submit %>
+<% end %>
